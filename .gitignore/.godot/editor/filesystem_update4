@@ -1,0 +1,15 @@
+res://scenes/main.tscn
+res://assets/restart_button.tres
+res://assets/hover_restart_button.tres
+res://assets/instructions_button.tres
+res://assets/hover_instructions_button.tres
+res://assets/exit_button.tres
+res://assets/hover_exit_button.tres
+res://assets/cancel_button.tres
+res://scenes/background.tscn
+res://scenes/game_over_menu.tscn
+res://scenes/hud.tscn
+res://scenes/exit_menu.tscn
+res://scenes/instructions_menu.tscn
+res://scenes/credits_menu.tscn
+res://scenes/8.tscn

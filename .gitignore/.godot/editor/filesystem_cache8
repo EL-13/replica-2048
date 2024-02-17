@@ -1,0 +1,90 @@
+fc8a56933c4b1c8d796fdb8f7a9f9475
+::res://::1707558801
+export_presets.cfg::TextFile::-1::1707555915::0::1::::<><>::
+icon.svg::CompressedTexture2D::8666210251802300872::1706518658::1706518664::1::::<><>::
+::res://assets/::1707558445
+Background.png::CompressedTexture2D::8715977658280281015::1701419373::1706522101::1::::<><>::
+cancel_button.tres::StyleBoxFlat::3885386866777007067::1707558445::0::1::::<><>::
+exit_button.tres::StyleBoxFlat::7191772626723602776::1707558445::0::1::::<><>::
+hover_cancel_button.tres::StyleBoxFlat::2293618679458430791::1706689237::0::1::::<><>::
+hover_exit_button.tres::StyleBoxFlat::4101435198556515585::1707558445::0::1::::<><>::
+hover_instructions_button.tres::StyleBoxFlat::8747688439513461310::1707558445::0::1::::<><>::
+hover_restart_button.tres::StyleBoxFlat::7678627284386535987::1707558445::0::1::::<><>::
+instructions_button.tres::StyleBoxFlat::8273937180923503555::1707558445::0::1::::<><>::
+restart_button.tres::StyleBoxFlat::4552288933161934918::1707558445::0::1::::<><>::
+shade_panel.tres::StyleBoxFlat::8428779135298632381::1706690741::0::1::::<><>::
+::res://assets/forgotten_futurist/::1706598817
+forgotten futurist bd it.otf::FontFile::1312361379731896521::1706598760::1706598817::1::::<><>::
+forgotten futurist bd.otf::FontFile::1746414289234471380::1706598760::1706598817::1::::<><>::
+forgotten futurist rg it.otf::FontFile::1864464531885577001::1706598760::1706598817::1::::<><>::
+forgotten futurist rg.otf::FontFile::7752074534491488639::1706598760::1706598817::1::::<><>::
+::res://assets/tiles/::1706519040
+2 Tile.png::CompressedTexture2D::3442402588987883437::1701419373::1706519040::1::::<><>::
+4 Tile.png::CompressedTexture2D::4926477648098509385::1701419373::1706519040::1::::<><>::
+8 Tile.png::CompressedTexture2D::4463818923993827442::1701419373::1706519039::1::::<><>::
+16 Tile.png::CompressedTexture2D::554055686721948160::1701419373::1706519039::1::::<><>::
+32 Tile.png::CompressedTexture2D::4035320903985979688::1701419373::1706519039::1::::<><>::
+64 Tile.png::CompressedTexture2D::5490350295703068522::1701419373::1706519039::1::::<><>::
+128 Tile.png::CompressedTexture2D::4772444068974093499::1701419373::1706519039::1::::<><>::
+256 Tile.png::CompressedTexture2D::1667962332923431625::1701419373::1706519039::1::::<><>::
+512 Tile.png::CompressedTexture2D::6455076811725915911::1701419373::1706519039::1::::<><>::
+1024 Tile.png::CompressedTexture2D::3636068381379371395::1701419373::1706519039::1::::<><>::
+2048 Tile.png::CompressedTexture2D::1659002306318992804::1701419373::1706519039::1::::<><>::
+4096 Tile.png::CompressedTexture2D::7968169737439486245::1701419373::1706519039::1::::<><>::
+8192 Tile.png::CompressedTexture2D::8732835363288952736::1701419373::1706519039::1::::<><>::
+16384 Tile.png::CompressedTexture2D::7520056326641751434::1701419373::1706519039::1::::<><>::
+32768 Tile.png::CompressedTexture2D::6378349671338955604::1701419373::1706519039::1::::<><>::
+65536 Tile.png::CompressedTexture2D::290122376078364508::1701419373::1706519039::1::::<><>::
+Tile Background.png::CompressedTexture2D::4358021254200094033::1701419374::1706519039::1::::<><>::
+::res://build/::1706871972
+::res://build/web/::1707558801
+index.apple-touch-icon.png::CompressedTexture2D::855541003574429139::1707558801::1707559192::1::::<><>::
+index.icon.png::CompressedTexture2D::2714510300954181022::1707558801::1707559192::1::::<><>::
+index.png::CompressedTexture2D::4944674962411414316::1707558801::1706872000::1::::<><>::
+::res://phone-export/::1707558667
+::res://scenes/::1707558647
+1.gd::GDScript::-1::1706951960::0::1::::<>Sprite2D<>::
+1.tscn::PackedScene::4912591930398619062::1706716004::0::1::::<><>::uid://bpbr4rcb3oar2
+2.gd::GDScript::-1::1706951963::0::1::::<>Sprite2D<>::
+2.tscn::PackedScene::8618506060265822701::1706716002::0::1::::<><>::uid://ccgomqmmwks30
+3.gd::GDScript::-1::1706951966::0::1::::<>Sprite2D<>::
+3.tscn::PackedScene::8631943817241849602::1706715999::0::1::::<><>::uid://b4ukpfaf2i1hm
+4.gd::GDScript::-1::1706951969::0::1::::<>Sprite2D<>::
+4.tscn::PackedScene::2806489346936951314::1706715997::0::1::::<><>::uid://h5nhl68tcc7y
+5.gd::GDScript::-1::1706951973::0::1::::<>Sprite2D<>::
+5.tscn::PackedScene::2367054386061262017::1706715995::0::1::::<><>::uid://bxq0e7pocjcuq
+6.gd::GDScript::-1::1706951977::0::1::::<>Sprite2D<>::
+6.tscn::PackedScene::6814061653187713012::1706715994::0::1::::<><>::uid://ckhtjc52yth7w
+7.gd::GDScript::-1::1706951979::0::1::::<>Sprite2D<>::
+7.tscn::PackedScene::4156926298172598403::1706715992::0::1::::<><>::uid://b882pr1mqflg2
+8.gd::GDScript::-1::1706951982::0::1::::<>Sprite2D<>::
+8.tscn::PackedScene::6756984314203295845::1707558446::0::1::::<><>::uid://x08di5p6hpph::::res://assets/tiles/256 Tile.png<>res://scenes/8.gd
+9.gd::GDScript::-1::1706951984::0::1::::<>Sprite2D<>::
+9.tscn::PackedScene::928349902614528915::1706715985::0::1::::<><>::uid://cx75f326h4tf0
+10.gd::GDScript::-1::1706951987::0::1::::<>Sprite2D<>::
+10.tscn::PackedScene::5771539239479157400::1706715983::0::1::::<><>::uid://br2lrrl03e1gp
+11.gd::GDScript::-1::1706951991::0::1::::<>Sprite2D<>::
+11.tscn::PackedScene::2531380885722611283::1706715981::0::1::::<><>::uid://xvvr4uiu185u
+12.gd::GDScript::-1::1706951993::0::1::::<>Sprite2D<>::
+12.tscn::PackedScene::753111371562388069::1706715979::0::1::::<><>::uid://dlr3udw3opmev
+13.gd::GDScript::-1::1706951996::0::1::::<>Sprite2D<>::
+13.tscn::PackedScene::2723192606540008717::1706715977::0::1::::<><>::uid://dwoir1ckt3x41
+14.gd::GDScript::-1::1706951999::0::1::::<>Sprite2D<>::
+14.tscn::PackedScene::6383615830322245361::1706715976::0::1::::<><>::uid://dfe1h1y3yc3h3
+15.gd::GDScript::-1::1706952010::0::1::::<>Sprite2D<>::
+15.tscn::PackedScene::102963187375782960::1706715966::0::1::::<><>::uid://cw4yqtg31ap1e
+16.gd::GDScript::-1::1706952002::0::1::::<>Sprite2D<>::
+16.tscn::PackedScene::1233288738867000441::1706715963::0::1::::<><>::uid://eesjj00vvrb5
+background.tscn::PackedScene::6317000073348860551::1707558445::0::1::::<><>::uid://dwgc44w7k0a3x::::res://assets/Background.png<>uid://b3db8dghxpy2t::::res://assets/tiles/Tile Background.png
+credits_menu.gd::GDScript::-1::1706952026::0::1::::<>CanvasLayer<>::
+credits_menu.tscn::PackedScene::5658326406121154697::1707558446::0::1::::<><>::uid://dipfsgpjqlimp::::res://assets/forgotten_futurist/forgotten futurist rg.otf<>res://scenes/credits_menu.gd<>uid://sxynuu5w6hen::::res://assets/forgotten_futurist/forgotten futurist bd it.otf<>uid://dsc704ul3ayft::::res://assets/shade_panel.tres<>uid://1tfpt7p3vv5r::::res://assets/forgotten_futurist/forgotten futurist rg it.otf<>uid://bvmd0vwsmq4sd::::res://assets/cancel_button.tres<>uid://7xbtgva48nwp::::res://assets/hover_cancel_button.tres
+exit_menu.gd::GDScript::-1::1706695040::0::1::::<>CanvasLayer<>::
+exit_menu.tscn::PackedScene::6480078607903036593::1707558445::0::1::::<><>::res://scenes/exit_menu.gd<>uid://sxynuu5w6hen::::res://assets/forgotten_futurist/forgotten futurist bd it.otf<>uid://dsc704ul3ayft::::res://assets/shade_panel.tres<>uid://dipfsgpjqlimp::::res://assets/forgotten_futurist/forgotten futurist rg.otf<>uid://bvmd0vwsmq4sd::::res://assets/cancel_button.tres<>uid://dap0pd06fildw::::res://assets/exit_button.tres<>uid://7xbtgva48nwp::::res://assets/hover_cancel_button.tres<>uid://byo1bkq6v1kvp::::res://assets/hover_exit_button.tres
+game_over_menu.gd::GDScript::-1::1706698605::0::1::::<>CanvasLayer<>::
+game_over_menu.tscn::PackedScene::7166624481560764920::1707558445::0::1::::<><>::uid://dsc704ul3ayft::::res://assets/shade_panel.tres<>res://scenes/game_over_menu.gd<>uid://y48gnsuh4dou::::res://assets/forgotten_futurist/forgotten futurist bd.otf<>uid://sxynuu5w6hen::::res://assets/forgotten_futurist/forgotten futurist bd it.otf<>uid://dipfsgpjqlimp::::res://assets/forgotten_futurist/forgotten futurist rg.otf<>uid://b54fse4350nfa::::res://assets/restart_button.tres<>uid://dhnt4tfkw0lod::::res://assets/hover_restart_button.tres
+hud.gd::GDScript::-1::1706695163::0::1::::<>CanvasLayer<>::
+hud.tscn::PackedScene::1938160940324865521::1707558445::0::1::::<><>::res://scenes/hud.gd<>uid://sxynuu5w6hen::::res://assets/forgotten_futurist/forgotten futurist bd it.otf<>uid://dipfsgpjqlimp::::res://assets/forgotten_futurist/forgotten futurist rg.otf<>uid://b54fse4350nfa::::res://assets/restart_button.tres<>uid://1tfpt7p3vv5r::::res://assets/forgotten_futurist/forgotten futurist rg it.otf<>uid://dhnt4tfkw0lod::::res://assets/hover_restart_button.tres<>uid://dp47sih4v1s48::::res://assets/instructions_button.tres<>uid://dwvpfebbnd8dm::::res://assets/hover_instructions_button.tres<>uid://dap0pd06fildw::::res://assets/exit_button.tres<>uid://byo1bkq6v1kvp::::res://assets/hover_exit_button.tres
+instructions_menu.gd::GDScript::-1::1706718504::0::1::::<>CanvasLayer<>::
+instructions_menu.tscn::PackedScene::2542997431671853565::1707558445::0::1::::<><>::res://scenes/instructions_menu.gd<>uid://dsc704ul3ayft::::res://assets/shade_panel.tres<>uid://dipfsgpjqlimp::::res://assets/forgotten_futurist/forgotten futurist rg.otf<>uid://y48gnsuh4dou::::res://assets/forgotten_futurist/forgotten futurist bd.otf<>uid://b54fse4350nfa::::res://assets/restart_button.tres<>uid://dhnt4tfkw0lod::::res://assets/hover_restart_button.tres
+main.gd::GDScript::-1::1706953183::0::1::::<>Node2D<>::
+main.tscn::PackedScene::2011677447097579564::1707558647::0::1::::<><>::uid://cwaack610yv0r::::res://scenes/background.tscn<>res://scenes/main.gd<>uid://dadti1oq8bing::::res://scenes/game_over_menu.tscn<>uid://cb8xw3c64fmmw::::res://scenes/1.tscn<>uid://du14shgr1juxh::::res://scenes/2.tscn<>uid://2u4h0am5eg38::::res://scenes/hud.tscn<>uid://du8m4axbefgxu::::res://scenes/3.tscn<>uid://cyk87h2cy25of::::res://scenes/exit_menu.tscn<>uid://bch32cmnmikjd::::res://scenes/instructions_menu.tscn<>uid://bf8qp70whqbew::::res://scenes/4.tscn<>uid://8yvbmer1e44t::::res://scenes/5.tscn<>uid://cmu62rpp1wogv::::res://scenes/credits_menu.tscn<>uid://c4c1unpy0yfnw::::res://scenes/6.tscn<>uid://b0hv766tp3f84::::res://scenes/7.tscn<>uid://c3jesrm7l1406::::res://scenes/8.tscn<>uid://nhx11cte5ujb::::res://scenes/9.tscn<>uid://coh1n4xw6sty3::::res://scenes/10.tscn<>uid://bcchqdgquxg3l::::res://scenes/11.tscn<>uid://ky2vtg5yidkf::::res://scenes/12.tscn<>uid://be2et4r6ym4tt::::res://scenes/13.tscn<>uid://cw7jhqnscpwpd::::res://scenes/14.tscn<>uid://bp412xhmbrwy::::res://scenes/15.tscn<>uid://rtoc5wlps1fh::::res://scenes/16.tscn
