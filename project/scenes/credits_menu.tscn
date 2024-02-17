@@ -1,0 +1,147 @@
+[gd_scene load_steps=8 format=3 uid="uid://cmu62rpp1wogv"]
+
+[ext_resource type="FontFile" uid="uid://dipfsgpjqlimp" path="res://assets/forgotten_futurist/forgotten futurist rg.otf" id="1_336oj"]
+[ext_resource type="Script" path="res://scenes/credits_menu.gd" id="1_bhh75"]
+[ext_resource type="FontFile" uid="uid://sxynuu5w6hen" path="res://assets/forgotten_futurist/forgotten futurist bd it.otf" id="1_qrfnt"]
+[ext_resource type="StyleBox" uid="uid://dsc704ul3ayft" path="res://assets/shade_panel.tres" id="1_qx5mk"]
+[ext_resource type="FontFile" uid="uid://1tfpt7p3vv5r" path="res://assets/forgotten_futurist/forgotten futurist rg it.otf" id="3_ov563"]
+[ext_resource type="StyleBox" uid="uid://bvmd0vwsmq4sd" path="res://assets/cancel_button.tres" id="5_juy2c"]
+[ext_resource type="StyleBox" uid="uid://7xbtgva48nwp" path="res://assets/hover_cancel_button.tres" id="6_3migw"]
+
+[node name="CreditsMenu" type="CanvasLayer"]
+process_mode = 2
+script = ExtResource("1_bhh75")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 576.0
+offset_bottom = 1024.0
+theme_override_styles/panel = ExtResource("1_qx5mk")
+
+[node name="CreditsLabel" type="Label" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.25
+anchor_right = 0.5
+anchor_bottom = 0.25
+offset_left = -100.0
+offset_top = -45.0
+offset_right = 100.0
+offset_bottom = 45.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("1_qrfnt")
+theme_override_font_sizes/font_size = 70
+text = "Credits"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ArtLabel" type="Label" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.4
+anchor_right = 0.5
+anchor_bottom = 0.4
+offset_left = -149.5
+offset_top = -25.0
+offset_right = 150.5
+offset_bottom = 25.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("1_336oj")
+theme_override_font_sizes/font_size = 35
+text = "Tiles and Background:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="FontLabel" type="Label" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.55
+anchor_right = 0.5
+anchor_bottom = 0.55
+offset_left = -40.0
+offset_top = -25.0
+offset_right = 40.0
+offset_bottom = 25.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("1_336oj")
+theme_override_font_sizes/font_size = 35
+text = "Font:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ArtLink" type="LinkButton" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.45
+anchor_right = 0.5
+anchor_bottom = 0.45
+offset_left = -63.5
+offset_top = -20.0
+offset_right = 63.5
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.282353, 0.792157, 0.894118, 1)
+theme_override_colors/font_pressed_color = Color(0.282353, 0.792157, 0.894118, 1)
+theme_override_colors/font_hover_color = Color(0.282353, 0.792157, 0.894118, 1)
+theme_override_colors/font_focus_color = Color(0.282353, 0.792157, 0.894118, 1)
+theme_override_fonts/font = ExtResource("3_ov563")
+theme_override_font_sizes/font_size = 30
+text = "taftcreates"
+underline = 1
+uri = "https://taftcreates.itch.io/2048-assets"
+
+[node name="FontLink" type="LinkButton" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.6
+anchor_right = 0.5
+anchor_bottom = 0.6
+offset_left = -103.0
+offset_top = -20.0
+offset_right = 103.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.282353, 0.792157, 0.894118, 1)
+theme_override_colors/font_pressed_color = Color(0.282353, 0.792157, 0.894118, 1)
+theme_override_colors/font_hover_color = Color(0.282353, 0.792157, 0.894118, 1)
+theme_override_colors/font_focus_color = Color(0.282353, 0.792157, 0.894118, 1)
+theme_override_fonts/font = ExtResource("3_ov563")
+theme_override_font_sizes/font_size = 30
+text = "Typodermic Fonts"
+underline = 1
+uri = "https://www.dafont.com/forgotten-futurist.font"
+
+[node name="CloseButton" type="Button" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.75
+anchor_right = 0.5
+anchor_bottom = 0.75
+offset_left = -70.0
+offset_top = -60.0
+offset_right = 70.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_336oj")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = ExtResource("5_juy2c")
+theme_override_styles/hover = ExtResource("6_3migw")
+theme_override_styles/pressed = ExtResource("5_juy2c")
+theme_override_styles/focus = ExtResource("5_juy2c")
+text = "Close"
+
+[connection signal="pressed" from="Panel/CloseButton" to="." method="_on_close_button_pressed"]

@@ -1,0 +1,92 @@
+[gd_scene load_steps=3 format=3 uid="uid://cwaack610yv0r"]
+
+[ext_resource type="Texture2D" uid="uid://dwgc44w7k0a3x" path="res://assets/Background.png" id="1_ly45u"]
+[ext_resource type="Texture2D" uid="uid://b3db8dghxpy2t" path="res://assets/tiles/Tile Background.png" id="2_q5c0q"]
+
+[node name="Background" type="Panel"]
+
+[node name="BackgroundSprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_ly45u")
+centered = false
+
+[node name="TileBackground" type="Node2D" parent="."]
+
+[node name="TB0" type="Sprite2D" parent="TileBackground"]
+modulate = Color(1, 1, 1, 0.686275)
+position = Vector2(93, 447)
+texture = ExtResource("2_q5c0q")
+
+[node name="TB1" type="Sprite2D" parent="TileBackground"]
+modulate = Color(1, 1, 1, 0.686275)
+position = Vector2(223, 447)
+texture = ExtResource("2_q5c0q")
+
+[node name="TB2" type="Sprite2D" parent="TileBackground"]
+modulate = Color(1, 1, 1, 0.686275)
+position = Vector2(353, 447)
+texture = ExtResource("2_q5c0q")
+
+[node name="TB3" type="Sprite2D" parent="TileBackground"]
+modulate = Color(1, 1, 1, 0.686275)
+position = Vector2(483, 447)
+texture = ExtResource("2_q5c0q")
+
+[node name="TB4" type="Sprite2D" parent="TileBackground"]
+modulate = Color(1, 1, 1, 0.686275)
+position = Vector2(93, 577)
+texture = ExtResource("2_q5c0q")
+
+[node name="TB5" type="Sprite2D" parent="TileBackground"]
+modulate = Color(1, 1, 1, 0.686275)
+position = Vector2(223, 577)
+texture = ExtResource("2_q5c0q")
+
+[node name="TB6" type="Sprite2D" parent="TileBackground"]
+modulate = Color(1, 1, 1, 0.686275)
+position = Vector2(353, 577)
+texture = ExtResource("2_q5c0q")
+
+[node name="TB7" type="Sprite2D" parent="TileBackground"]
+modulate = Color(1, 1, 1, 0.686275)
+position = Vector2(483, 577)
+texture = ExtResource("2_q5c0q")
+
+[node name="TB8" type="Sprite2D" parent="TileBackground"]
+modulate = Color(1, 1, 1, 0.686275)
+position = Vector2(93, 707)
+texture = ExtResource("2_q5c0q")
+
+[node name="TB9" type="Sprite2D" parent="TileBackground"]
+modulate = Color(1, 1, 1, 0.686275)
+position = Vector2(223, 707)
+texture = ExtResource("2_q5c0q")
+
+[node name="TB10" type="Sprite2D" parent="TileBackground"]
+modulate = Color(1, 1, 1, 0.686275)
+position = Vector2(353, 707)
+texture = ExtResource("2_q5c0q")
+
+[node name="TB11" type="Sprite2D" parent="TileBackground"]
+modulate = Color(1, 1, 1, 0.686275)
+position = Vector2(483, 707)
+texture = ExtResource("2_q5c0q")
+
+[node name="TB12" type="Sprite2D" parent="TileBackground"]
+modulate = Color(1, 1, 1, 0.686275)
+position = Vector2(93, 837)
+texture = ExtResource("2_q5c0q")
+
+[node name="TB13" type="Sprite2D" parent="TileBackground"]
+modulate = Color(1, 1, 1, 0.686275)
+position = Vector2(223, 837)
+texture = ExtResource("2_q5c0q")
+
+[node name="TB14" type="Sprite2D" parent="TileBackground"]
+modulate = Color(1, 1, 1, 0.686275)
+position = Vector2(353, 837)
+texture = ExtResource("2_q5c0q")
+
+[node name="TB15" type="Sprite2D" parent="TileBackground"]
+modulate = Color(1, 1, 1, 0.686275)
+position = Vector2(483, 837)
+texture = ExtResource("2_q5c0q")

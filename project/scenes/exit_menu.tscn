@@ -1,0 +1,88 @@
+[gd_scene load_steps=9 format=3 uid="uid://cyk87h2cy25of"]
+
+[ext_resource type="Script" path="res://scenes/exit_menu.gd" id="1_1lhjp"]
+[ext_resource type="FontFile" uid="uid://sxynuu5w6hen" path="res://assets/forgotten_futurist/forgotten futurist bd it.otf" id="1_h8h73"]
+[ext_resource type="StyleBox" uid="uid://dsc704ul3ayft" path="res://assets/shade_panel.tres" id="1_vyib4"]
+[ext_resource type="FontFile" uid="uid://dipfsgpjqlimp" path="res://assets/forgotten_futurist/forgotten futurist rg.otf" id="2_korbt"]
+[ext_resource type="StyleBox" uid="uid://bvmd0vwsmq4sd" path="res://assets/cancel_button.tres" id="3_yvbt0"]
+[ext_resource type="StyleBox" uid="uid://dap0pd06fildw" path="res://assets/exit_button.tres" id="4_jps87"]
+[ext_resource type="StyleBox" uid="uid://7xbtgva48nwp" path="res://assets/hover_cancel_button.tres" id="5_4brjc"]
+[ext_resource type="StyleBox" uid="uid://byo1bkq6v1kvp" path="res://assets/hover_exit_button.tres" id="5_w4tdg"]
+
+[node name="ExitMenu" type="CanvasLayer"]
+process_mode = 2
+script = ExtResource("1_1lhjp")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 576.0
+offset_bottom = 1024.0
+theme_override_styles/panel = ExtResource("1_vyib4")
+
+[node name="ExitLabel" type="Label" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.4
+anchor_right = 0.5
+anchor_bottom = 0.4
+offset_left = -140.0
+offset_top = -40.0
+offset_right = 140.0
+offset_bottom = 40.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("1_h8h73")
+theme_override_font_sizes/font_size = 70
+text = "Confirm Exit?"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CancelButton" type="Button" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.2
+anchor_top = 0.5
+anchor_right = 0.2
+anchor_bottom = 0.5
+offset_top = -35.0
+offset_right = 150.0
+offset_bottom = 35.0
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_korbt")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = ExtResource("3_yvbt0")
+theme_override_styles/hover = ExtResource("5_4brjc")
+theme_override_styles/pressed = ExtResource("3_yvbt0")
+theme_override_styles/focus = ExtResource("3_yvbt0")
+text = "Cancel"
+
+[node name="ExitButton" type="Button" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.8
+anchor_top = 0.5
+anchor_right = 0.8
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = -35.0
+offset_bottom = 35.0
+grow_horizontal = 0
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_korbt")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = ExtResource("4_jps87")
+theme_override_styles/hover = ExtResource("5_w4tdg")
+theme_override_styles/pressed = ExtResource("4_jps87")
+theme_override_styles/focus = ExtResource("4_jps87")
+text = "Exit"
+
+[connection signal="pressed" from="Panel/CancelButton" to="." method="_on_cancel_button_pressed"]
+[connection signal="pressed" from="Panel/ExitButton" to="." method="_on_exit_button_pressed"]

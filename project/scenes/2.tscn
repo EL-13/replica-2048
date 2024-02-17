@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://du14shgr1juxh"]
+
+[ext_resource type="Texture2D" uid="uid://ccgomqmmwks30" path="res://assets/tiles/4 Tile.png" id="1_mx2vi"]
+[ext_resource type="Script" path="res://scenes/2.gd" id="2_yjpm5"]
+
+[node name="2" type="Sprite2D" groups=["Tiles"]]
+texture = ExtResource("1_mx2vi")
+script = ExtResource("2_yjpm5")
